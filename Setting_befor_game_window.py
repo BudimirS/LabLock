@@ -64,11 +64,11 @@ class Pre_game_setting(Pra_window):
                    var.SCREEN_WIDTH // 2 - pygame.font.Font('Marta_Decor_Two.ttf', 20).render(
                        'Пример - 64. Это создаст лабиринт 6 клеток в длинну и 4 в высоту', True,
                        (0, 0, 0)).get_width() // 2, var.SCREEN_HEIGHT // 64 * 25 + 110, (60, 140, 190), font_size=20)
-        print_text('Указывается в формате "xy" где x длинна ,а y высота',
+        print_text('Указывается в формате "xy" где x высота ,а y ширина',
                    var.SCREEN_WIDTH // 2 - pygame.font.Font('Marta_Decor_Two.ttf', 20).render(
                        'Пример - 64. Это создаст лабиринт 6 клеток в длинну и 4 в высоту', True,
                        (0, 0, 0)).get_width() // 2, var.SCREEN_HEIGHT // 64 * 25 + 140, (60, 140, 190), font_size=20)
-        print_text('Пример - 64. Это создаст лабиринт 6 клеток в длинну и 4 в высоту',
+        print_text('Пример - 46. Это создаст лабиринт 4 клетки в высоту и 6 в ширину',
                    var.SCREEN_WIDTH // 2 - pygame.font.Font('Marta_Decor_Two.ttf', 20).render(
                        'Пример - 64. Это создаст лабиринт 6 клеток в длинну и 4 в высоту', True,
                        (0, 0, 0)).get_width() // 2, var.SCREEN_HEIGHT // 64 * 25 + 170, (60, 140, 190), font_size=20)
